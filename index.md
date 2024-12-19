@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Eh salut je modifie des trucs. Et encore plus de trucs ! TEST ENCORE. Si ce texte s'affiche, alors pas besoin de Ctrl+C entre deux changements locaux consécutifs.
+Si ce texte s'affiche, alors pas besoin de add et commit les changements locaux, juste bundle etc.
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
