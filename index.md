@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Eh salut je modifie des trucs. Et encore plus de trucs ! TEST ENCORE
+Eh salut je modifie des trucs. Et encore plus de trucs ! TEST ENCORE. Si ce texte s'affiche, alors pas besoin de Ctrl+C entre deux changements locaux consécutifs.
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
