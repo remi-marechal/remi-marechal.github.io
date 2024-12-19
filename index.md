@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Eh salut je modifie des trucs.
+Eh salut je modifie des trucs. Et encore plus de trucs !
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
