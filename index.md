@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Si ce texte s'affiche, alors pas besoin de add et commit les changements locaux, juste bundle etc.
+slt ca va
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
