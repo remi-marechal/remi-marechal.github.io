@@ -27,11 +27,12 @@
 
 body {
   padding: 0;
-  margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  font-family: "Nunito";
   font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
+  background-color: #e4dff3;
 }
 
 #skip-to-content {
@@ -55,11 +56,16 @@ body {
 a {
   color: $body-link-color;
   text-decoration: none;
+  font-family: 'Montserrat';
 
   &:hover {
     text-decoration: underline;
   }
+  &:active {
+    color: rgb(56, 100, 38);
+  }
 }
+
 
 .btn {
   display: inline-block;
@@ -112,15 +118,15 @@ a {
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 
   @include large {
-    padding: 5rem 6rem;
+    padding: 2.5rem 3rem;
   }
 
   @include medium {
-    padding: 3rem 4rem;
+    padding: 1.5rem 2rem;
   }
 
   @include small {
-    padding: 2rem 1rem;
+    padding: 1rem 0.5rem;
   }
 }
 
@@ -354,6 +360,7 @@ a {
   padding-top: 2rem;
   margin-top: 2rem;
   border-top: solid 1px $hr-border-color;
+  background-color: #d8bee4;
 
   @include large {
     font-size: 1rem;

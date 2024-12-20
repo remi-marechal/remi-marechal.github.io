@@ -4,6 +4,22 @@ layout: default
 
 slt ca va
 
+<div id="salut">
+  oeoeoe
+</div>
+
+<div id="tu">
+  sa di koi
+</div>
+
+<div id="vas">
+  la team
+</div>
+
+<div id="bien">
+  uuuuuuu
+</div>
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
