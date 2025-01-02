@@ -35,6 +35,36 @@ body {
   background-color: $body-bg-color;
 }
 
+.impair {
+  background-color: $body-bg-color-impair;
+  position: relative;
+}
+.impair:before {
+  content:"";
+  background-color: $body-bg-color-impair;
+  position: absolute;
+  margin-top: -17px;
+  height: 110%;
+  width: 200vw;
+  left: -100vw;
+  z-index: -1;
+}
+
+.pair {
+  background-color: $body-bg-color-pair;
+  position: relative;
+}
+.pair:before {
+  content:"";
+  background-color: $body-bg-color-pair;
+  position: absolute;
+  margin-top: -17px;
+  height: 110%;
+  width: 200vw;
+  left: -100vw;
+  z-index: -1;
+}
+
 #skip-to-content {
   height: 1px;
   width: 1px;
