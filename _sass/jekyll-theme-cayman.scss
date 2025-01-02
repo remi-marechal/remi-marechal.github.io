@@ -38,32 +38,58 @@ body {
 .impair {
   background-color: $body-bg-color-impair;
   position: relative;
+  padding: 1rem;
 }
-.impair:before {
-  content:"";
-  background-color: $body-bg-color-impair;
-  position: absolute;
-  margin-top: -17px;
-  height: 110%;
-  width: 200vw;
-  left: -100vw;
-  z-index: -1;
-}
+// .impair:before {
+//   content:"";
+//   background-color: $body-bg-color-impair;
+//   position: absolute;
+//   // margin-top: -17px;
+//   height: 100%;
+//   width: 100vw;
+
+//   @include large {
+//     left: -35rem; // correspond à -0.5*(max-width + padding[1]) dans .main-content
+//   }
+
+//   @include medium {
+//     left: -6rem; // idem
+//   }
+
+//   @include small {
+//     left: -1rem; // idem
+//   }
+
+//   z-index: -1;
+// }
 
 .pair {
   background-color: $body-bg-color-pair;
   position: relative;
+  padding: 1rem;
 }
-.pair:before {
-  content:"";
-  background-color: $body-bg-color-pair;
-  position: absolute;
-  margin-top: -17px;
-  height: 110%;
-  width: 200vw;
-  left: -100vw;
-  z-index: -1;
-}
+// .pair:before {
+//   content:"";
+//   background-color: $body-bg-color-pair;
+//   position: absolute;
+//   // margin-top: -17px;
+//   height: 100%;
+//   width: 100vw;
+
+//   @include large {
+//     left: -35rem; // correspond à -0.5*(max-width + padding[1]) dans .main-content
+//   }
+
+//   @include medium {
+//     left: -6rem; // idem
+//   }
+
+//   @include small {
+//     left: -1rem; // idem
+//   }
+
+//   z-index: -1;
+// }
 
 #skip-to-content {
   height: 1px;
@@ -249,7 +275,7 @@ a.mon-nom {
   }
 
   @include large {
-    max-width: 64rem;
+    max-width: 72rem;
     padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 1.1rem;
@@ -398,6 +424,7 @@ a.mon-nom {
     word-break: normal;
     word-break: keep-all; // For Firefox to horizontally scroll wider tables.
     -webkit-overflow-scrolling: touch;
+    border: none;
 
     th {
       font-weight: bold;
@@ -406,7 +433,7 @@ a.mon-nom {
     th,
     td {
       padding: 0.5rem 1rem;
-      border: 1px solid $table-border-color;
+      // border: 1px solid $table-border-color;
     }
   }
 
@@ -436,21 +463,23 @@ a.mon-nom {
   }
 }
 
-.ma-tronche {
-  float: right;
-  padding-top: 1rem;
-  margin: 2rem;
-  width: 25%;
-}
+// .ma-tronche {
+//   float: right;
+//   // padding-top: 1rem;
+//   margin-left: 2rem;
+//   margin-right: 1rem;
+//   // padding: 2rem;
+//   width: 25%;
+// }
 
 .site-footer {
-  padding: 0.2rem;
-  margin-top: 2rem;
+  padding-top: 2rem; // le même que le padding vertical de .main-content
+  // margin-right: -25%;
   padding-right: 3rem;
-  //border-top: solid 1px $hr-border-color;
-  background-color: darken($body-bg-color,2%);
-  filter: saturate(0.8);
-  text-align: right;
+  // border-top: solid 1px $hr-border-color;
+  background-color: darken($body-bg-color,0%);
+  filter: saturate(1);
+  text-align: end;
 
   @include large {
     font-size: 1rem;

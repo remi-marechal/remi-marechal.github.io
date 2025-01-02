@@ -11,9 +11,10 @@ $header-bg-color-secondary: #992415 !default;
 $section-headings-color: #159957 !default;
 $body-text-color: #606c71 !default;
 $body-link-color: #1e6bb8 !default;
-$body-bg-color: #f1dad6 !default;
-$body-bg-color-impair: darken($body-bg-color,0%) !default;
-$body-bg-color-pair: lighten($body-bg-color,1.5%) !default;
+$body-bg-color: #c08faa !default;
+$body-section-bg-color: #eed7d4 !default;
+$body-bg-color-impair: darken($body-section-bg-color,2%) !default;
+$body-bg-color-pair: lighten($body-section-bg-color,2%) !default;
 $blockquote-text-color: #819198 !default;
 
 // Code

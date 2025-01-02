@@ -8,24 +8,31 @@ layout: default
   <h1>About me</h1>
 </div>
 
-<div>
-<div class="ma-tronche"><img src="/img/ma-tronche.jpg"></div>
-<p>I am currently a postdoctoral fellow at <a href="https://welcome.unicaen.fr/">UNICAEN</a>, in Caen, France.
-I work at the <a href="https://www.greyc.fr/en/home/">GREYC</a> lab, where I am part of the <a href="https://www.greyc.fr/en/equipes/amacc-2/">AMACC</a> team.</p>
+<!-- <div> -->
+<table>
+<tr>
+<!-- <div class="ma-tronche"><img src="/img/ma-tronche.jpg"></div> -->
+<td>
+  <p>I am currently a postdoctoral fellow at <a href="https://welcome.unicaen.fr/">UNICAEN</a>, in Caen, France.
+  I work at the <a href="https://www.greyc.fr/en/home/">GREYC</a> lab, where I am part of the <a href="https://www.greyc.fr/en/equipes/amacc-2/">AMACC</a> team.</p>
 
-<p>Previously, I was a PhD student at <a href="https://lib.u-bourgogne.fr/en/home-page">LIB</a>
-(team <a href="https://lib.u-bourgogne.fr/combinatoire-et-reseaux">CombNet</a>) in Dijon, France, under the supervision of
-<a href="http://jl.baril.u-bourgogne.fr/"><nobr>Jean-Luc Baril</nobr></a>, <a href="https://kirgizov.link/"><nobr>Sergey Kirgizov</nobr></a>,
-and <a href="http://v.vincent.u-bourgogne.fr/"><nobr>Vincent Vajnovszki</nobr></a>. You can check both the
-<a href="https://hal.science/tel-04791004v3">thesis manuscript</a> and <nobr>the <a href="/pdf/diapoSoutenance.pdf">defence slides</a></nobr>.</p>
+  <p>Previously, I was a PhD student at <a href="https://lib.u-bourgogne.fr/en/home-page">LIB</a>
+  (team <a href="https://lib.u-bourgogne.fr/combinatoire-et-reseaux">CombNet</a>) in Dijon, France, under the supervision of
+  <a href="http://jl.baril.u-bourgogne.fr/"><nobr>Jean-Luc Baril</nobr></a>, <a href="https://kirgizov.link/"><nobr>Sergey Kirgizov</nobr></a>,
+  and <a href="http://v.vincent.u-bourgogne.fr/"><nobr>Vincent Vajnovszki</nobr></a>. You can check both the
+  <a href="https://hal.science/tel-04791004v3">thesis manuscript</a> and <nobr>the <a href="/pdf/diapoSoutenance.pdf">defence slides</a></nobr>.</p>
 
-<p>So far, I’ve been doing my research in the broad field of combinatorics. For a detailed description of my activity,
-see the <a href="index.html#research">research section</a>.</p>
+  <p>So far, I’ve been doing my research in the broad field of combinatorics. For a detailed description of my activity,
+  see the <a href="index.html#research">research section</a>.</p>
+</td>
+<td><img src="/img/ma-tronche.jpg"></td>
+</tr>
+</table>
+<!-- </div> -->
+
 </div>
 
-</div>
-
-* * *
+<!-- * * * -->
 
 <div class="pair">
 
@@ -50,7 +57,7 @@ of such classes and constructing efficient algorithms (namely, Boltzmann sampler
 
 </div>
 
-* * *
+<!-- * * * -->
 
 <div class="impair">
 
@@ -60,7 +67,7 @@ of such classes and constructing efficient algorithms (namely, Boltzmann sampler
 
 </div>
 
-* * *
+<!-- * * * -->
 
 <div class="pair">
 
@@ -70,7 +77,7 @@ of such classes and constructing efficient algorithms (namely, Boltzmann sampler
 
 </div>
 
-* * *
+<!-- * * * -->
 
 <div class="impair">
 
@@ -80,7 +87,7 @@ of such classes and constructing efficient algorithms (namely, Boltzmann sampler
 
 </div>
 
-* * *
+<!-- * * * -->
 
 <div class="pair">
 
