@@ -96,6 +96,16 @@ a {
   }
 }
 
+a.mon-nom {
+  color: $header-heading-color;
+  transition: color 0.3s;
+
+  &:hover {
+    text-decoration: none;
+    color: darken($header-heading-color,20%);
+  }
+}
+
 
 .btn {
   display: inline-block;
