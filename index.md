@@ -2,140 +2,50 @@
 layout: default
 ---
 
-slt ca va
-
-<div id="salut">
-  oeoeoe
+<div id="about">
+  <h1>About me</h1>
 </div>
 
-<div id="tu">
-  sa di koi
+<div>
+<div class="ma-tronche"><img src="/img/ma-tronche.jpg"></div>
+<p>I am currently a postdoctoral fellow at <a href="https://welcome.unicaen.fr/">UNICAEN</a>, in Caen, France. I work at the <a href="https://www.greyc.fr/en/home/">GREYC</a> lab, where I am part of the <a href="https://www.greyc.fr/en/equipes/amacc-2/">AMACC</a> team.</p>
+
+<p>Previously, I was a PhD student at <a href="https://lib.u-bourgogne.fr/en/home-page">LIB</a> (team <a href="https://lib.u-bourgogne.fr/combinatoire-et-reseaux">CombNet</a>) in Dijon, France, under the supervision of <a href="http://jl.baril.u-bourgogne.fr/"><nobr>Jean-Luc Baril</nobr></a>, <a href="https://kirgizov.link/"><nobr>Sergey Kirgizov</nobr></a>, and <a href="http://v.vincent.u-bourgogne.fr/"><nobr>Vincent Vajnovszki</nobr></a>. You can check both the <a href="https://hal.science/tel-04791004v3">thesis manuscript</a> and <nobr>the <a href="/pdf/diapoSoutenance.pdf">defence slides</a></nobr>.</p>
+
+<p>So far, I’ve been doing my research in the broad field of combinatorics. For a detailed description of my activity, see the <a href="index.html#research">research section</a>.</p>
 </div>
-
-<div id="vas">
-  la team
-</div>
-
-<div id="bien">
-  uuuuuuu
-</div>
-
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
 
 * * *
 
-### Here is an unordered list:
+<div id="research">
+  <h1>Research</h1>
+</div>
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+* * *
 
-### And an ordered list:
+<div id="talks">
+  <h1>Talks</h1>
+</div>
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+* * *
 
-### And a nested list:
+<div id="publications">
+  <h1>Publications</h1>
+</div>
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+* * *
 
-### Small image
+<div id="teaching">
+  <h1>Teaching</h1>
+</div>
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+* * *
 
-### Large image
+<div id="misc">
+  <h1>Miscellaneous</h1>
+</div>
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+There are several activities that are dear to my heart, including (but not limited to):
+* Music (I especially love singing, and I dabble in a number of instruments, such as the trombone, the drums, the piano, and a few others);
+* Video games (one genre I am particularly invested in are fighting games/platform fighters; I also used to speedrun a couple platform games);
+* Digital painting (although a beginner, I greatly appreciate the serenity and the sense of accomplishment that creating visual art brings).
