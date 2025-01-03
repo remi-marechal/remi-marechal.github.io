@@ -118,7 +118,7 @@ a {
     text-decoration: underline;
   }
   &:active {
-    color: rgb(56, 100, 38);
+    color: lighten($body-link-color,15%);
   }
 }
 
@@ -432,7 +432,7 @@ a.mon-nom {
 
     th,
     td {
-      padding: 0.5rem 1rem;
+      padding-left: 0rem;
       // border: 1px solid $table-border-color;
     }
   }
@@ -463,14 +463,14 @@ a.mon-nom {
   }
 }
 
-// .ma-tronche {
-//   float: right;
-//   // padding-top: 1rem;
-//   margin-left: 2rem;
-//   margin-right: 1rem;
-//   // padding: 2rem;
-//   width: 25%;
-// }
+.ma-tronche {
+  // float: right;
+  // // padding-top: 1rem;
+  // margin-left: 2rem;
+  // margin-right: 1rem;
+  padding-left: 1rem;
+  // width: 25%;
+}
 
 .site-footer {
   padding-top: 2rem; // le même que le padding vertical de .main-content
@@ -501,4 +501,117 @@ a.mon-nom {
 
 .site-footer-credits {
   color: $blockquote-text-color;
+
+  a {
+    color: $blockquote-link-color;
+
+    &:hover {
+      text-decoration: underline;
+    }
+    &:active {
+      color: lighten($blockquote-link-color,10%);
+    }
+  }
+}
+
+.activity {
+  text-align: justify;
+  padding-right: 2rem;
+  // margin-bottom: -1rem;
+
+  li::marker {
+    color: $activity-color;
+  }
+
+  li {
+    padding-bottom: 1rem;
+  }
+}
+
+.activity-name {
+  color: $activity-color;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-decoration-thickness: 0.1rem;
+}
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+
+summary {
+  // padding: 1rem;
+  display: block;
+  // background: #333;
+  padding-left: 1rem;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+
+  &:hover {
+    // color: rgb(179, 160, 136);
+    font-weight: bolder;
+    // transition: color 0.3s;
+    transition: font-weight 0.2s;
+  }
+}
+
+summary:before {
+  content: '';
+  border-width: .4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent $body-text-color;
+  position: absolute;
+  top: 0.4rem;
+  left: 0rem;
+  transform: rotate(0);
+  transform-origin: .2rem 50%;
+  transition: .25s transform ease;
+}
+
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+ul.spaced-list {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+ul.spaced-list li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+div.talk-title {
+  font-weight: bolder;
+  color: $talk-title-color;
+}
+
+ul#talks li::marker {
+  color: $talk-title-color;
+}
+
+.abstract  {
+  font-size: 80%;
+  text-align: justify;
+  color: darken($body-text-color,2%);
+  filter: saturate(0.5);
+  font-weight: lighter;
+  padding-left: 1rem;
+  // padding-right: 1rem;
+}
+
+#to-top-btn-talks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $body-text-color;
+  text-decoration: none;
+
+  &:hover {
+    font-weight: bolder;
+    transition: font-weight 0.2s;
+  }
 }

@@ -3,19 +3,22 @@ $large-breakpoint: 64em !default;
 $medium-breakpoint: 42em !default;
 
 // Headers
-$header-heading-color: #fff !default;
-$header-bg-color: #991553 !default;
-$header-bg-color-secondary: #992415 !default;
+$header-heading-color: #f3deeb !default;
+$header-bg-color: #75103f !default;
+$header-bg-color-secondary: #6e1d11 !default;
 
 // Text
-$section-headings-color: #159957 !default;
-$body-text-color: #606c71 !default;
-$body-link-color: #1e6bb8 !default;
-$body-bg-color: #c08faa !default;
-$body-section-bg-color: #eed7d4 !default;
+$section-headings-color: #e6b26f !default;
+$body-text-color: #f0efe4 !default;
+$body-link-color: #ff7351 !default;
+$body-bg-color: #1f0e14 !default;
+$body-section-bg-color: #6d504b !default;
 $body-bg-color-impair: darken($body-section-bg-color,2%) !default;
 $body-bg-color-pair: lighten($body-section-bg-color,2%) !default;
-$blockquote-text-color: #819198 !default;
+$blockquote-text-color: #c4a0aa !default;
+$blockquote-link-color: #e25964 !default;
+$talk-title-color: #ecc1b6 !default;
+$activity-color: #f1a8a1 !default;
 
 // Code
 $code-bg-color: #f3f6fa !default;
