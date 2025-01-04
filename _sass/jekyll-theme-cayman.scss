@@ -464,12 +464,27 @@ a.mon-nom {
 }
 
 .ma-tronche {
-  // float: right;
-  // // padding-top: 1rem;
-  // margin-left: 2rem;
-  // margin-right: 1rem;
+  float: right;
   padding-left: 1rem;
-  // width: 25%;
+
+  @include large {
+    max-width: 25%;
+    // max-height: 5%;
+  }
+
+  @include medium {
+    min-width: 25%;
+    max-width: 200px;
+  }
+
+  @include small {
+    width: 50%;
+  }
+}
+
+.contenu-section {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .site-footer {
