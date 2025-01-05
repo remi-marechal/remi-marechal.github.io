@@ -46,7 +46,7 @@ layout: default
 I introduced a new class of lattice paths and studied a wide array of their elementary properties, such as their enumeration, their prefixes,
 a right-to-left model, the distribution and popularity of several patterns, a couple subclasses and superclasses
 (on which I conducted the same type of work)<nobr>, etc</nobr>. Each integer sequence arising from this work is a bijection waiting to be found
-(a lot of them still elude me), and that is why I established a number of them in <a href="https://hal.science/tel-04791004v3">my manuscript</a>,
+(a lot of them still elude me), and that is why I established a number of them in <a href="/pdf/manuscritThese.pdf">my manuscript</a>,
 leading to interesting questions, like the transportation of combinatorial statistics through specific bijections.</p>
 
 <p>My current postdoc introduced me to <b><em>analytic</em> combinatorics</b> and the <b>random generation of large structures</b>. At the moment,
