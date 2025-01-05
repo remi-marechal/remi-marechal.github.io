@@ -33,6 +33,9 @@ body {
   line-height: 1.5;
   color: $body-text-color;
   background-color: $body-bg-color;
+
+  // display: grid;
+  // grid-template-columns: auto 0px;
 }
 
 .impair {
@@ -128,7 +131,8 @@ a.mon-nom {
 
   &:hover {
     text-decoration: none;
-    color: darken($header-heading-color,20%);
+    color: darken($header-heading-color,10%);
+    // filter: saturate(0.5);
   }
 }
 
@@ -231,7 +235,7 @@ a.mon-nom {
   }
 }
 
-.mail {
+.adresses {
   margin-bottom: 2rem;
   font-weight: lighter;
   opacity: 0.8;
@@ -491,6 +495,7 @@ a.mon-nom {
   padding-top: 2rem; // le même que le padding vertical de .main-content
   // margin-right: -25%;
   padding-right: 3rem;
+  margin-bottom: -2.2rem;
   // border-top: solid 1px $hr-border-color;
   background-color: darken($body-bg-color,0%);
   filter: saturate(1);
@@ -604,8 +609,71 @@ div.talk-title {
   color: $talk-title-color;
 }
 
-ul#talks li::marker {
-  color: $talk-title-color;
+div.publication-title {
+  font-weight: bolder;
+  color: $publication-title-color;
+}
+
+div.teaching-title {
+  font-weight: bolder;
+  color: $teaching-title-color;
+
+  .responsable-ue {
+    font-weight: lighter;
+    color: $body-text-color;
+  }
+}
+
+ul#talks {
+  li::marker {
+    color: $talk-title-color;
+  }
+
+  a {
+    color: $talk-link-color;
+    font-weight: bolder;
+  }
+}
+
+ul#publications {
+  li::marker {
+    color: $publication-title-color;
+  }
+
+  a {
+    color: $publication-link-color;
+    font-weight: bolder;
+  }
+}
+
+ul#teaching {
+  li::marker {
+    color: $teaching-title-color;
+  }
+
+  a {
+    color: $teaching-link-color;
+    font-weight: bolder;
+  }
+}
+
+.journal-publication {
+  font-style: italic;
+  color: darken($body-text-color,10%);
+  // filter: saturate(0.1);
+  font-weight: lighter;
+}
+
+.talk-lieu {
+  font-style: italic;
+  color: darken($body-text-color,10%);
+  // filter: saturate(0.1);
+  font-weight: lighter;
+}
+
+a.ok {
+  color: $publication-link-color;
+  font-weight: bolder;
 }
 
 .abstract  {
@@ -629,4 +697,50 @@ ul#talks li::marker {
     font-weight: bolder;
     transition: font-weight 0.2s;
   }
+}
+
+#to-top-btn-publications {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $body-text-color;
+  text-decoration: none;
+
+  &:hover {
+    font-weight: bolder;
+    transition: font-weight 0.2s;
+  }
+}
+
+#to-top-btn-teaching {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $body-text-color;
+  text-decoration: none;
+
+  &:hover {
+    font-weight: bolder;
+    transition: font-weight 0.2s;
+  }
+}
+
+.top {
+  place-self: end;
+
+  position: sticky;
+  left: 77vw;
+  bottom: 20px;
+  margin-right: 20px;
+
+  --offset: 100px; 
+  margin-top: calc(100vh + var(--offset));
+
+  white-space: nowrap;
+
+  font-weight: bolder;
+  padding: 0.6rem;
+  color: $body-link-color;
+  background: $top-btn-color;
+  border-radius: 100px;
 }
