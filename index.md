@@ -22,7 +22,7 @@ layout: default
   and <a href="http://v.vincent.u-bourgogne.fr/"><nobr>Vincent Vajnovszki</nobr></a>. You are free to check both the
   <a href="/pdf/manuscritThese.pdf">thesis manuscript</a> and <nobr>the <a href="/pdf/soutenanceThese.pdf">defence slides</a></nobr>.</p>
 
-  <p>So far, I’ve been doing my research in the broad field of combinatorics. For a detailed description of my activity,
+  <p>So far, I have been doing my research in the broad field of combinatorics. For a detailed description of my activity,
   see the <a href="index.html#research">research section</a>.</p>
 <!-- </td> -->
 <!-- <td class="ma-tronche"><img src="/img/ma-tronche.jpg" class="ma-tronche"></td> -->
@@ -73,7 +73,7 @@ of such classes and constructing efficient algorithms (namely, Boltzmann sampler
 
 <details>
   <summary>
-  Below is a list of (more or less) every presentation I've done (in French or in English). Slides, posters, and abstracts are provided whenever available.
+  Below is a list of (more or less) every presentation I have done (in French or in English). Slides, posters, and abstracts are provided whenever available.
   </summary>
 
   <ul class="spaced-list" id="talks">
@@ -263,7 +263,7 @@ objects</div>
   I especially love singing, and I dabble in a number of instruments, such as the trombone, the drums, the piano, and a few others;</li>
   <li><span class="activity-name">Video games</span><br>
   One genre I am particularly invested in are fighting games/platform fighters; I also used to play lots of rhythm games,
-  and I've done speedruns of a couple platform games;</li>
+  and I have done speedruns of a couple platform games;</li>
   <li><span class="activity-name">Digital painting</span><br>
   Although a beginner, I greatly appreciate the serenity and the sense of accomplishment that creating visual art brings.</li>
 </ul>
