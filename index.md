@@ -20,7 +20,7 @@ layout: default
   (team <a href="https://lib.u-bourgogne.fr/combinatoire-et-reseaux">CombNet</a>) in Dijon, France, under the supervision of
   <a href="http://jl.baril.u-bourgogne.fr/"><nobr>Jean-Luc Baril</nobr></a>, <a href="https://kirgizov.link/"><nobr>Sergey Kirgizov</nobr></a>,
   and <a href="http://v.vincent.u-bourgogne.fr/"><nobr>Vincent Vajnovszki</nobr></a>. You are free to check both the
-  <a href="/pdf/manuscritThese.pdf">thesis manuscript</a> and <nobr>the <a href="/pdf/diapoSoutenance.pdf">defence slides</a></nobr>.</p>
+  <a href="/pdf/manuscritThese.pdf">thesis manuscript</a> and <nobr>the <a href="/pdf/soutenanceThese.pdf">defence slides</a></nobr>.</p>
 
   <p>So far, I’ve been doing my research in the broad field of combinatorics. For a detailed description of my activity,
   see the <a href="index.html#research">research section</a>.</p>
