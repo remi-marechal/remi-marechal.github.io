@@ -11,7 +11,10 @@ layout: default
 <div class="contenu-section">
 <!-- <table> -->
 <!-- <tr> -->
-<div class="ma-tronche"><img src="/img/ma-tronche.jpg"></div>
+<div class="ma-tronche">
+<img src="/img/ma-tronche.jpg"><br>
+<span class="photo-credits">Picture: Tom Ataké</span>
+</div>
 <!-- <td> -->
   <p>I am currently a postdoctoral fellow at <a href="https://welcome.unicaen.fr/">UNICAEN</a>, in Caen, France.
   I work at the <a href="https://www.greyc.fr/en/home/">GREYC</a> lab, where I am part of the <a href="https://www.greyc.fr/en/equipes/amacc-2/">AMACC</a> team.</p>

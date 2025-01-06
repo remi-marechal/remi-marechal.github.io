@@ -161,18 +161,19 @@ a.mon-nom {
 
   @include large {
     padding: 0.75rem 1rem;
+    font-size: 1.2rem;
   }
 
   @include medium {
     padding: 0.6rem 0.9rem;
-    font-size: 0.9rem;
+    // font-size: 0.9rem;
   }
 
   @include small {
     display: block;
     width: 100%;
     padding: 0.75rem;
-    font-size: 0.9rem;
+    // font-size: 0.9rem;
 
     + .btn {
       margin-top: 1rem;
@@ -205,15 +206,15 @@ a.mon-nom {
   margin-bottom: 0.1rem;
 
   @include large {
-    font-size: 3.25rem;
+    font-size: 3.5rem;
   }
 
   @include medium {
-    font-size: 2.25rem;
+    font-size: 2.5rem;
   }
 
   @include small {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 }
 
@@ -223,15 +224,15 @@ a.mon-nom {
   opacity: 0.9;
 
   @include large {
-    font-size: 1.75rem;
+    font-size: 2.25rem;
   }
 
   @include medium {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 
   @include small {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -241,15 +242,15 @@ a.mon-nom {
   opacity: 0.8;
 
   @include large {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
   @include medium {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   @include small {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 
@@ -470,6 +471,7 @@ a.mon-nom {
 .ma-tronche {
   float: right;
   padding-left: 1rem;
+  text-align: center;
 
   @include large {
     max-width: 25%;
@@ -499,7 +501,7 @@ a.mon-nom {
   // border-top: solid 1px $hr-border-color;
   background-color: darken($body-bg-color,0%);
   filter: saturate(1);
-  text-align: end;
+  // text-align: end;
 
   @include large {
     font-size: 1rem;
@@ -738,9 +740,18 @@ a.ok {
 
   white-space: nowrap;
 
+  font-size: larger;
   font-weight: bolder;
   padding: 0.6rem;
-  color: $body-link-color;
+  color: lighten($body-link-color,5%);
   background: $top-btn-color;
   border-radius: 100px;
+}
+
+.photo-credits {
+  font-size: smaller;
+  font-weight: lighter;
+  color: darken($body-text-color,20%);
+  filter: saturate(0.5);
+  font-style: italic;
 }
