@@ -38,11 +38,11 @@ body {
   // grid-template-columns: auto 0px;
 }
 
-.impair {
-  background-color: $body-bg-color-impair;
-  position: relative;
-  padding: 1rem;
-}
+// .impair {
+//   background-color: $body-bg-color-impair;
+//   position: relative;
+//   padding: 1rem;
+// }
 // .impair:before {
 //   content:"";
 //   background-color: $body-bg-color-impair;
@@ -66,11 +66,23 @@ body {
 //   z-index: -1;
 // }
 
-.pair {
+.section:nth-of-type(even) {
   background-color: $body-bg-color-pair;
   position: relative;
   padding: 1rem;
 }
+
+.section:nth-of-type(odd) {
+  background-color: $body-bg-color-impair;
+  position: relative;
+  padding: 1rem;
+}
+
+// .pair {
+//   background-color: $body-bg-color-pair;
+//   position: relative;
+//   padding: 1rem;
+// }
 // .pair:before {
 //   content:"";
 //   background-color: $body-bg-color-pair;
@@ -754,4 +766,146 @@ a.ok {
   color: darken($body-text-color,20%);
   filter: saturate(0.5);
   font-style: italic;
+}
+
+#main-menu {
+  display: block;
+  height: 100px;
+  width: 100%;
+  // background: #3D0E61;
+  margin: 0px;  
+  z-index: 9;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .35s, visibility .35s, height .35s;
+    overflow: hidden;
+    background: black;
+    z-index: -1;
+}
+
+#burger-input{
+  display: none;
+}
+
+#menu-burger {
+  position: absolute;
+
+  top: 17px;
+  left: 10px;
+
+  background: $menu-burger-bg;
+  // background: transparent;
+
+  text-align: left;
+
+  transition: box-shadow 0.15s;
+  // transition: text-shadow 0.15s;
+
+  &:hover {
+    box-shadow: 0 0 1rem $border-color;
+    // text-shadow: 0 0 2px $border-color;
+  }
+
+  #barre-burger {
+    // color: blue;
+    // display: inline-block;
+    background: $menu-burger-color;
+    padding-left: 25px; // = hauteur du conteneur - 2*padding [2*10px]
+    // padding-right: 10px;
+  }
+
+  .barres-burger-au-pluriel { // hauteur du conteneur = 2*padding + 5*line-height [3 lignes + 2 interlignes]
+    // background: red;
+    // font-size: 50px;
+    // text-align: center;
+    padding: 8px;
+    line-height: 5px;
+  }
+
+  border: 1px solid $border-color;
+  border-radius: 10px;
+
+  z-index: 99;
+
+  #sidebar-menu {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #11090cee 0%, #11090cee 40%, transparent 40%, transparent 100%);
+    transition: 0.3s;
+    padding: 0px 10px;
+    box-sizing: border-box;
+  }
+
+  h3, ul {
+    box-shadow: none;
+    text-shadow: none;
+  }
+
+  h3 {
+    color: $section-headings-color;
+    font-size: 2.2rem;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  li {
+    list-style-type: none;
+    line-height: 3rem;
+  }
+
+  a {
+    color: $body-link-color;
+    font-size: 1.3rem;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+#burger-input:checked + #menu-burger #sidebar-menu {
+  visibility: visible;
+  left: 0;
+}
+
+#burger-input:checked ~ .overlay{
+  visibility: visible;
+  opacity: 0.4;
+}
+
+
+@include large {
+  #menu-burger {
+    display: none;
+  }
+}
+
+@include medium {
+  #menu-burger {
+    display: none;
+  }
+}
+
+@include small {
+  #main-menu {
+    display: none;
+  }
+  #menu-burger {
+    display: inline;
+  }
 }

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="impair">
+<div class="section">
 
 <div id="about">
   <h1>About me</h1>
@@ -37,7 +37,7 @@ layout: default
 
 <!-- * * * -->
 
-<div class="pair">
+<div class="section">
 
 <div id="research">
   <h1>Research</h1>
@@ -66,7 +66,7 @@ of such classes and constructing efficient algorithms (namely, Boltzmann sampler
 
 <!-- * * * -->
 
-<div class="impair">
+<div class="section">
 
 <div id="talks">
   <h1>Talks</h1>
@@ -167,7 +167,7 @@ objects</div>
 
 <!-- * * * -->
 
-<div class="pair">
+<div class="section">
 
 <div id="publications">
   <h1>Publications</h1>
@@ -221,7 +221,7 @@ objects</div>
 
 <!-- * * * -->
 
-<div class="impair">
+<div class="section">
 
 <div id="teaching">
   <h1>Teaching</h1>
@@ -252,7 +252,7 @@ objects</div>
 
 <!-- * * * -->
 
-<div class="pair">
+<div class="section">
 
 <div id="misc">
   <h1>Miscellaneous</h1>
