@@ -867,7 +867,8 @@ a.ok {
   }
 
   ul {
-    padding-left: 0px 20px;
+    padding-left: 20px;
+    padding-right: 10px;
     width: 100%; // toujours 100% car son parent (un div de classe .sidebar-sections) a déjà la bonne width
     word-break: break-word;
   }
