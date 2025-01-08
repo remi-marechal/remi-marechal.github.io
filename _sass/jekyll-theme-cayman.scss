@@ -216,7 +216,7 @@ a.mon-nom {
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
-  padding: 0px 75px; // valeur horizontale > 17px+41px [padding + largeur du menu burger] pour que le menu burger ne cache pas mon nom
+  // padding: 0px 75px; // valeur horizontale > 17px+41px [padding + largeur du menu burger] pour que le menu burger ne cache pas mon nom
 
   @include large {
     font-size: 3.5rem;
@@ -228,6 +228,7 @@ a.mon-nom {
 
   @include small {
     font-size: 2rem;
+    padding-top: 59px; // = [(padding + hauteur) du burger - padding haut du (small) header] = 75px - 1rem = 75px - 16px ; pour que le burger ne cache pas mon nom 
   }
 }
 
@@ -871,14 +872,14 @@ a.ok {
 
   ul {
     padding: 0px 30px;
-    padding-top: 20px;
+    // padding-top: 20px;
     width: 100%; // toujours 100% car son parent (un div de classe .sidebar-sections) a déjà la bonne width
     word-break: break-word;
   }
 
   li {
     list-style-type: none;
-    line-height: 1rem;
+    line-height: 3rem;
   }
 
   a {
