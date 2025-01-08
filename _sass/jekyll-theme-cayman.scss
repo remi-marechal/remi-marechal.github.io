@@ -867,15 +867,15 @@ a.ok {
   }
 
   ul {
-    padding-left: 20px;
-    padding-right: 10px;
+    padding: 0px 10px;
+    padding-top: 20px;
     width: 100%; // toujours 100% car son parent (un div de classe .sidebar-sections) a déjà la bonne width
     word-break: break-word;
   }
 
   li {
     list-style-type: none;
-    line-height: 3rem;
+    line-height: 1rem;
   }
 
   a {
