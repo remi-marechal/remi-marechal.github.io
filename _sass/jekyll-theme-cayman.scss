@@ -842,14 +842,14 @@ a.ok {
     left: -250px;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, #11090cee 0%, #11090cee 40%, transparent 40%, transparent 100%);
+    background: linear-gradient(to right, #11090cee 0%, #11090cee 75%, transparent 75%, transparent 100%);
     transition: 0.3s;
     // padding: 0px 10px;
     box-sizing: border-box;
 
     .sidebar-sections {
       // background-color: blue; // pour debug
-      width: 40%; // correspond à la coupure dans le linear-gradient du background de #sidebar-menu
+      width: 75%; // correspond à la coupure dans le linear-gradient du background de #sidebar-menu
     }
   }
 
@@ -861,13 +861,13 @@ a.ok {
   h3 {
     color: $section-headings-color;
     font-size: 2.2rem;
-    padding: 0px 10px;
-    width: 40%; // correspond à la coupure dans le linear-gradient du background de #sidebar-menu
+    padding: 0px 20px;
+    width: 75%; // correspond à la coupure dans le linear-gradient du background de #sidebar-menu
     word-break: break-word;
   }
 
   ul {
-    padding: 0px 10px;
+    padding: 0px 30px;
     padding-top: 20px;
     width: 100%; // toujours 100% car son parent (un div de classe .sidebar-sections) a déjà la bonne width
     word-break: break-word;
