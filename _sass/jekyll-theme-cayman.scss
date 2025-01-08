@@ -216,6 +216,7 @@ a.mon-nom {
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
+  padding: 0px 75px; // valeur horizontale > 17px+41px [padding + largeur du menu burger] pour que le menu burger ne cache pas mon nom
 
   @include large {
     font-size: 3.5rem;
@@ -509,7 +510,8 @@ a.mon-nom {
   padding-top: 2rem; // le même que le padding vertical de .main-content
   // margin-right: -25%;
   padding-right: 3rem;
-  margin-bottom: -2.2rem;
+  margin-top: 2.2rem; // garantit que le bouton "back to top" ne cache jamais le texte de pied de page
+  // margin-bottom: -2.2rem;
   // border-top: solid 1px $hr-border-color;
   background-color: darken($body-bg-color,0%);
   filter: saturate(1);
@@ -770,6 +772,7 @@ a.ok {
 
 #main-menu {
   display: block;
+  // display: inline-block;
   height: 100px;
   width: 100%;
   // background: #3D0E61;
@@ -799,7 +802,7 @@ a.ok {
   position: absolute;
 
   top: 17px;
-  left: 10px;
+  left: 17px;
 
   background: $menu-burger-bg;
   // background: transparent;
