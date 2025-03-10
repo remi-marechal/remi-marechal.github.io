@@ -82,6 +82,18 @@ of such classes and constructing efficient algorithms (namely, Boltzmann sampler
   <ul class="spaced-list" id="talks">
   <li>
     <div class="talk-title">Combinatoire énumérative et bijective de différentes familles de chemins de Dyck avec trous d’air</div>
+    4th March 2025<br />
+    <div class="talk-lieu">At <a href="https://lipn.univ-paris13.fr/~banderier/Seminaires/resume.php?L=1684">Séminaire CALIN</a>, LIPN, Villetaneuse, France</div>
+    <a href="/pdf/seminaireLIPN25.pdf">Slides</a>
+    <details>
+      <summary>Abstract</summary>
+      <div class="abstract">Cet exposé se situe dans le cadre de la combinatoire des chemins sur réseau. On introduit ici une généralisation des chemins de Dyck (dits “avec trous d’air”), avant de se pencher sur diverses questions classiques à leur sujet : énumération, distributions de motifs, étude de sous-ensembles, etc. Ce faisant, des suites d’entiers positifs (connues dans la littérature) apparaissent naturellement. Dès que possible, on cherchera alors à relier les objets combinatoires décrits par ces suites aux chemins de Dyck avec trous d’air, à travers des bijections explicites.<br /><br />
+      Les travaux présentés ont été effectués pendant mon doctorat, et correspondent à trois publications dont les co-auteurs sont Jean-Luc Baril, Sergey Kirgizov, Helmut Prodinger, et Vincent Vajnovszki.</div>
+    </details>
+  </li>
+
+  <li>
+    <div class="talk-title">Combinatoire énumérative et bijective de différentes familles de chemins de Dyck avec trous d’air</div>
     19th November 2024<br>
     <div class="talk-lieu">At <a href="https://www.greyc.fr/event/seminaire-algorithmique-combinatoire-enumerative-et-bijective-de-differentes-familles-de-chemins-de-dyck-avec-trous-dair-remi-marechal-greyc-caen/">Séminaire Algo</a>, GREYC, Caen, France</div>
     <a href="/pdf/seminaireGREYC24.pdf">Slides</a>
