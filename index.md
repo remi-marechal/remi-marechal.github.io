@@ -81,6 +81,21 @@ of such classes and constructing efficient algorithms (namely, Boltzmann sampler
 
   <ul class="spaced-list" id="talks">
   <li>
+    <div class="talk-title">The "phoenix" and "fork anywhere" models of git graphs</div>
+    16th May 2025<br />
+    <div class="talk-lieu">At <a href="https://pandag.proj.lip6.fr/workshop-2025/">PAnDAG Workshop</a>, LIP6, Paris, France</div>
+    <a href="xxx">Slides [coming soon]</a>
+    <details>
+      <summary>Abstract</summary>
+      <div class="abstract">
+        We want to define classes of DAGs suitable for the modelling of Version Control System repositories (such as git). In an effort to broaden the class of so-called "feature branch graphs" (see Courtiel's talk), we define "phoenix graphs" and "fork anywhere graphs". We will explore counting, random generation, and bijective problems regarding these new classes.
+        <br><br>
+        [Joint work with Julien Clément, Julien Courtiel, and Martin Pépin]
+      </div>
+    </details>
+  </li>
+
+  <li>
     <div class="talk-title">Combinatoire énumérative et bijective de différentes familles de chemins de Dyck avec trous d’air</div>
     4th March 2025<br />
     <div class="talk-lieu">At <a href="https://lipn.univ-paris13.fr/~banderier/Seminaires/resume.php?L=1684">Séminaire CALIN</a>, LIPN, Villetaneuse, France</div>
