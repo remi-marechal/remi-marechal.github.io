@@ -12,8 +12,8 @@ layout: default
 <!-- <table> -->
 <!-- <tr> -->
 <div class="ma-tronche">
-<img src="/img/ma-tronche.jpg"><br>
-<span class="photo-credits">Picture: Tom Ataké</span>
+<img src="/img/tails soleil.jpg"><br>
+<span class="photo-credits">Illustration: RM</span>
 </div>
 <!-- <td> -->
   <p>I am currently a postdoctoral fellow at <a href="https://welcome.unicaen.fr/">UNICAEN</a>, in Caen, France.
@@ -84,7 +84,7 @@ of such classes and constructing efficient algorithms (namely, Boltzmann sampler
     <div class="talk-title">The "phoenix" and "fork anywhere" models of git graphs</div>
     16th May 2025<br />
     <div class="talk-lieu">At <a href="https://pandag.proj.lip6.fr/workshop-2025/">PAnDAG Workshop</a>, LIP6, Paris, France</div>
-    <a href="xxx">Slides [coming soon]</a>
+    <a href="/pdf/workshopPAnDAG25.pdf">Slides</a>
     <details>
       <summary>Abstract</summary>
       <div class="abstract">
