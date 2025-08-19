@@ -16,15 +16,16 @@ layout: default
 <span class="photo-credits">Illustration: RM</span>
 </div>
 <!-- <td> -->
-  <p>I am currently a postdoctoral fellow (more specifically, I am an "attaché·e temporaire d’enseignement et de recherche", or ATER for short) at <a href="https://www.univ-spn.fr/">USPN</a>, in Villetaneuse, France.
+  <p>I am currently a postdoctoral fellow (more specifically, I am an "attaché·e temporaire d’enseignement et de recherche", or "ATER" for short) at <a href="https://www.univ-spn.fr/">USPN</a>, in Villetaneuse, France.
   I work at the <a href="https://lipn.univ-paris13.fr/home/">LIPN</a> lab (where I am part of the <a href="https://lipn.univ-paris13.fr/calin-en/">CALIN</a> team), as well as at the <a href="https://galilee.univ-paris13.fr/">Institut Galilée</a> (where I teach computer science).</p>
 
   <p>Previously, I was a PhD student at <a href="https://lib.u-bourgogne.fr/en/home-page">LIB</a>
   (team <a href="https://lib.u-bourgogne.fr/combinatoire-et-reseaux">CombNet</a>) in Dijon, France, under the supervision of
   <a href="http://jl.baril.u-bourgogne.fr/"><nobr>Jean-Luc Baril</nobr></a>, <a href="https://kirgizov.link/"><nobr>Sergey Kirgizov</nobr></a>,
   and <a href="http://v.vincent.u-bourgogne.fr/"><nobr>Vincent Vajnovszki</nobr></a>. You are free to check both the
-  <a href="/pdf/manuscritThese.pdf">thesis manuscript</a> and <nobr>the <a href="/pdf/soutenanceThese.pdf">defence slides</a></nobr>.
-  After that, I worked as a postdoc for a year at <a href="https://www.greyc.fr/en/home/">GREYC</a> (team <a href="https://www.greyc.fr/en/equipes/amacc-2/">AMACC</a>(C(C?))) in Caen, France. I mainly conducted my research alongside <a href="https://clementj01.users.greyc.fr/"><nobr>Julien Clément</nobr></a>, <a href="https://courtiel.users.greyc.fr/"><nobr>Julien Courtiel</nobr></a>, and <a href="https://pepin231.users.greyc.fr/"><nobr>Martin Pépin</nobr></a>.</p>
+  <a href="/pdf/manuscritThese.pdf">thesis manuscript</a> and <nobr>the <a href="/pdf/soutenanceThese.pdf">defence slides</a></nobr>.</p>
+
+  <p>After that, I worked as a postdoc for a year at <a href="https://www.greyc.fr/en/home/">GREYC</a> (team <a href="https://www.greyc.fr/en/equipes/amacc-2/">AMACC</a>(C(C?))) in Caen, France. There, I mainly conducted my research alongside <a href="https://clementj01.users.greyc.fr/"><nobr>Julien Clément</nobr></a>, <a href="https://courtiel.users.greyc.fr/"><nobr>Julien Courtiel</nobr></a>, and <a href="https://pepin231.users.greyc.fr/"><nobr>Martin Pépin</nobr></a>.</p>
 
   <p>So far, I have been doing my research in the broad field of combinatorics. For a detailed description of my activity,
   see the <a href="index.html#research">research section</a>.</p>
@@ -53,7 +54,7 @@ a right-to-left model, the distribution and popularity of several patterns, a co
 (a lot of them still elude me), and that is why I established a number of them in <a href="/pdf/manuscritThese.pdf">my manuscript</a>,
 leading to interesting questions, like the transportation of combinatorial statistics through specific bijections.</p>
 
-<p>My first postdoc in Caen introduced me to <b><em>analytic</em> combinatorics</b> and the <b>random generation of large structures</b>. At the moment,
+<p>My first postdoc in Caen introduced me to <b><em>analytic</em> combinatorics</b> and the <b>random generation of large structures</b>. During my time there,
 I aimed to define interesting classes of directed acyclic graphs (or DAGs for short) in the vein of
 <a href="https://courtiel.users.greyc.fr/">Julien Courtiel</a>’s and <a href="https://pepin231.users.greyc.fr/">Martin Pépin</a>’s
 <a href="https://hal.science/hal-04487862v2">git graphs</a>. In this endeavour, the theory of analytic combinatorics aided me in finding asymptotic properties
