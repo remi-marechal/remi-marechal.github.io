@@ -34,6 +34,6 @@ $code-text-color: #567482 !default;
 // Borders
 $border-color: $header-heading-color !default;
 $table-border-color: #e9ebec !default;
-$hr-border-color: darken($body-bg-color,2%) !default;
+$hr-border-color: lighten($body-bg-color,20%) !default;
 $menu-burger-bg: #922a1a !default;
 $menu-burger-color: #11090c !default;

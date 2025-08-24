@@ -12,7 +12,7 @@ layout: default
 <!-- <table> -->
 <!-- <tr> -->
 <div class="ma-tronche">
-<img src="/img/tails soleil.jpg"><br>
+<img id="tails-rond" src="/img/tails soleil.jpg"><br>
 <span class="photo-credits">Illustration: RM</span>
 </div>
 <!-- <td> -->
@@ -297,7 +297,7 @@ objects</div>
   One genre I am particularly invested in are fighting games/platform fighters; I also used to play lots of rhythm games,
   and I have done speedruns of a couple platform games;</li>
   <li><span class="activity-name">Digital painting</span><br>
-  Although a beginner, I greatly appreciate the serenity and the sense of accomplishment that creating visual art brings.</li>
+  Although a beginner, I greatly appreciate the serenity and the sense of accomplishment that creating visual art brings. Take a look at my <a href="gallery.html">gallery</a>!</li>
 </ul>
 
 </div>
