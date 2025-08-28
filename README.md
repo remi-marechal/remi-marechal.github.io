@@ -2,7 +2,7 @@
 
 ## Note to self
 
-In order to test changes locally, modify and save necessary files, then run `bundle exec jekyll serve`.
+In order to test changes locally, modify and save necessary files, then run `bundle exec jekyll serve`. Also comment the `<meta http-equiv="refresh" content="0; URL=https://remi-marechal.github.io/index.html">` line in the `default.html` layout (otherwise I'll be redirected to the live page instead of looking at the local version of it); don't forget to decomment it after I'm finished.
 
 After that, look for a line that says `Server address: [some address]`, and view the local changes there.
 
