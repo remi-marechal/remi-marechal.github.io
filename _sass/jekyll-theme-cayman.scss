@@ -275,6 +275,27 @@ a.mon-nom {
   }
 }
 
+.adresses-gallery {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: lighter;
+  opacity: 0.8;
+
+  line-height: 150%;
+
+  @include large {
+    font-size: 1.5rem;
+  }
+
+  @include medium {
+    font-size: 1.2rem;
+  }
+
+  @include small {
+    font-size: 1rem;
+  }
+}
+
 .pronouns {
   // float: right;
   // padding-left: 0.5rem;
@@ -865,9 +886,10 @@ a.ok {
   z-index: 9;
 }
 
-/* #gallery-desc {
-  margin-bottom: 2rem;
-} */
+#gallery-desc {
+  // margin-bottom: 2rem;
+  margin-top: 2.5rem;
+}
 
 .overlay{
     position: fixed;
