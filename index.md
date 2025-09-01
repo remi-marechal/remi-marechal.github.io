@@ -60,7 +60,7 @@ I aimed to define interesting classes of directed acyclic graphs (or DAGs for sh
 <a href="https://hal.science/hal-04487862v2">git graphs</a>. In this endeavour, the theory of analytic combinatorics aided me in finding asymptotic properties
 of such classes and constructing efficient algorithms (namely, Boltzmann samplers) for the random generation of large graphs.</p>
 
-<p>In the broader scheme of things, I greatly enjoy discrete structures, as well as adding new tools to my arsenal when studying them.</p>
+<p>In the broader scheme of things, I greatly enjoy discrete structures, and I am always eager to add new tools to my arsenal, so that I can get better at studying them.</p>
 
 </div>
 
