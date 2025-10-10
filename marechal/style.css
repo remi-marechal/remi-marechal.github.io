@@ -1,0 +1,1541 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type=checkbox],
+input[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type=search] {
+  -webkit-appearance: textfield; /* 1 */ /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+.highlight table td {
+  padding: 5px;
+}
+
+.highlight table pre {
+  margin: 0;
+}
+
+.highlight .cm {
+  color: #999988;
+  font-style: italic;
+}
+
+.highlight .cp {
+  color: #999999;
+  font-weight: bold;
+}
+
+.highlight .c1 {
+  color: #999988;
+  font-style: italic;
+}
+
+.highlight .cs {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.highlight .c, .highlight .cd {
+  color: #999988;
+  font-style: italic;
+}
+
+.highlight .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+
+.highlight .gd {
+  color: #000000;
+  background-color: #ffdddd;
+}
+
+.highlight .ge {
+  color: #000000;
+  font-style: italic;
+}
+
+.highlight .gr {
+  color: #aa0000;
+}
+
+.highlight .gh {
+  color: #999999;
+}
+
+.highlight .gi {
+  color: #000000;
+  background-color: #ddffdd;
+}
+
+.highlight .go {
+  color: #888888;
+}
+
+.highlight .gp {
+  color: #555555;
+}
+
+.highlight .gs {
+  font-weight: bold;
+}
+
+.highlight .gu {
+  color: #aaaaaa;
+}
+
+.highlight .gt {
+  color: #aa0000;
+}
+
+.highlight .kc {
+  color: #000000;
+  font-weight: bold;
+}
+
+.highlight .kd {
+  color: #000000;
+  font-weight: bold;
+}
+
+.highlight .kn {
+  color: #000000;
+  font-weight: bold;
+}
+
+.highlight .kp {
+  color: #000000;
+  font-weight: bold;
+}
+
+.highlight .kr {
+  color: #000000;
+  font-weight: bold;
+}
+
+.highlight .kt {
+  color: #445588;
+  font-weight: bold;
+}
+
+.highlight .k, .highlight .kv {
+  color: #000000;
+  font-weight: bold;
+}
+
+.highlight .mf {
+  color: #009999;
+}
+
+.highlight .mh {
+  color: #009999;
+}
+
+.highlight .il {
+  color: #009999;
+}
+
+.highlight .mi {
+  color: #009999;
+}
+
+.highlight .mo {
+  color: #009999;
+}
+
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #009999;
+}
+
+.highlight .sb {
+  color: #d14;
+}
+
+.highlight .sc {
+  color: #d14;
+}
+
+.highlight .sd {
+  color: #d14;
+}
+
+.highlight .s2 {
+  color: #d14;
+}
+
+.highlight .se {
+  color: #d14;
+}
+
+.highlight .sh {
+  color: #d14;
+}
+
+.highlight .si {
+  color: #d14;
+}
+
+.highlight .sx {
+  color: #d14;
+}
+
+.highlight .sr {
+  color: #009926;
+}
+
+.highlight .s1 {
+  color: #d14;
+}
+
+.highlight .ss {
+  color: #990073;
+}
+
+.highlight .s {
+  color: #d14;
+}
+
+.highlight .na {
+  color: #008080;
+}
+
+.highlight .bp {
+  color: #999999;
+}
+
+.highlight .nb {
+  color: #0086B3;
+}
+
+.highlight .nc {
+  color: #445588;
+  font-weight: bold;
+}
+
+.highlight .no {
+  color: #008080;
+}
+
+.highlight .nd {
+  color: #3c5d5d;
+  font-weight: bold;
+}
+
+.highlight .ni {
+  color: #800080;
+}
+
+.highlight .ne {
+  color: #990000;
+  font-weight: bold;
+}
+
+.highlight .nf {
+  color: #990000;
+  font-weight: bold;
+}
+
+.highlight .nl {
+  color: #990000;
+  font-weight: bold;
+}
+
+.highlight .nn {
+  color: #555555;
+}
+
+.highlight .nt {
+  color: #000080;
+}
+
+.highlight .vc {
+  color: #008080;
+}
+
+.highlight .vg {
+  color: #008080;
+}
+
+.highlight .vi {
+  color: #008080;
+}
+
+.highlight .nv {
+  color: #008080;
+}
+
+.highlight .ow {
+  color: #000000;
+  font-weight: bold;
+}
+
+.highlight .o {
+  color: #000000;
+  font-weight: bold;
+}
+
+.highlight .w {
+  color: #bbbbbb;
+}
+
+.highlight {
+  background-color: #f8f8f8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: auto;
+  font-family: "Nunito";
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f0efe9;
+  background-color: #11090c;
+}
+
+.section:nth-of-type(even) {
+  background-color: rgb(95.8101265823, 75.5835443038, 72.3898734177);
+  position: relative;
+  padding: 1rem;
+}
+
+.section:nth-of-type(odd) {
+  background-color: rgb(84.1898734177, 66.4164556962, 63.6101265823);
+  position: relative;
+  padding: 1rem;
+}
+
+#skip-to-content {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+}
+#skip-to-content:focus {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  height: auto;
+  width: auto;
+  background: #008cae;
+  outline: thick solid #008cae;
+}
+
+a {
+  color: #ff7351;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(255, 176.5517241379, 157.5);
+}
+
+a.mon-nom {
+  color: #ffe2f4;
+  transition: color 0.3s;
+}
+a.mon-nom:hover {
+  text-decoration: none;
+  color: rgb(255, 175, 224.6551724138);
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.5s, background-color 0.5s, border-color 0.5s;
+}
+.btn:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.btn + .btn {
+  margin-left: 1rem;
+}
+@media screen and (min-width: 64em) {
+  .btn {
+    padding: 0.75rem 1rem;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .btn {
+    padding: 0.6rem 0.9rem;
+  }
+}
+@media screen and (max-width: 42em) {
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+  }
+  .btn + .btn {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+}
+
+.page-header {
+  color: #ffe2f4;
+  text-align: center;
+  background-color: #961a54;
+  background-image: linear-gradient(120deg, #922a1a, #961a54);
+}
+@media screen and (min-width: 64em) {
+  .page-header {
+    padding: 2.5rem 3rem;
+    padding-top: 3.75rem;
+  }
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .page-header {
+    padding: 1.5rem 2rem;
+    padding-top: 2.5rem;
+  }
+}
+@media screen and (max-width: 42em) {
+  .page-header {
+    padding: 1rem 0.5rem;
+    padding-top: 0.625rem;
+  }
+}
+
+.project-name {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+  line-height: 75%;
+}
+@media screen and (min-width: 64em) {
+  .project-name {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .project-name {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 42em) {
+  .project-name {
+    font-size: 2rem;
+    padding-top: 59px;
+  }
+}
+
+.project-tagline {
+  margin-bottom: 0.1rem;
+  font-weight: normal;
+  opacity: 0.9;
+}
+@media screen and (min-width: 64em) {
+  .project-tagline {
+    font-size: 2.25rem;
+  }
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .project-tagline {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-width: 42em) {
+  .project-tagline {
+    font-size: 1.5rem;
+  }
+}
+
+.adresses {
+  margin-bottom: 2rem;
+  font-weight: lighter;
+  opacity: 0.8;
+  line-height: 150%;
+}
+@media screen and (min-width: 64em) {
+  .adresses {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .adresses {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 42em) {
+  .adresses {
+    font-size: 1rem;
+  }
+}
+
+.adresses-gallery {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  font-weight: lighter;
+  opacity: 0.8;
+  line-height: 150%;
+}
+@media screen and (min-width: 64em) {
+  .adresses-gallery {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .adresses-gallery {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 42em) {
+  .adresses-gallery {
+    font-size: 1rem;
+  }
+}
+
+.pronouns {
+  font-weight: lighter;
+  opacity: 0.8;
+}
+@media screen and (min-width: 64em) {
+  .pronouns {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .pronouns {
+    font-size: 1.15rem;
+  }
+}
+@media screen and (max-width: 42em) {
+  .pronouns {
+    font-size: 1rem;
+  }
+}
+
+.main-content {
+  word-wrap: break-word;
+}
+.main-content :first-child {
+  margin-top: 0;
+}
+@media screen and (min-width: 64em) {
+  .main-content {
+    max-width: 72rem;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .main-content {
+    padding: 2rem 4rem;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 42em) {
+  .main-content {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+  }
+}
+.main-content kbd {
+  background-color: #fafbfc;
+  border: 1px solid #c6cbd1;
+  border-bottom-color: #959da5;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #959da5;
+  color: #444d56;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 10px;
+  padding: 3px 5px;
+  vertical-align: middle;
+}
+.main-content #tails-rond {
+  max-width: 100%;
+  border-radius: 50%;
+}
+.main-content .gallery {
+  text-align: center;
+  padding: 20px 5px;
+}
+.main-content #images-wrapper {
+  line-height: 0;
+  -webkit-column-gap: 0px;
+  -moz-column-gap: 0px;
+  column-gap: 0px;
+}
+@media screen and (min-width: 64em) {
+  .main-content #images-wrapper {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .main-content #images-wrapper {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+@media screen and (max-width: 42em) {
+  .main-content #images-wrapper {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+}
+.main-content #images-wrapper img {
+  width: 100% !important;
+  height: auto !important;
+}
+.main-content #images-wrapper {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.main-content .gallery-pic {
+  /*     max-width: 19.99999%;
+      max-height: 500px; */
+  padding: 0.2rem;
+  transition: transform 0.3s;
+}
+.main-content .gallery-pic:hover {
+  transform: scale(1.1);
+}
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: #e6b26f;
+}
+.main-content p {
+  margin-bottom: 1em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.main-content code {
+  padding: 2px 4px;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 0.9rem;
+  color: #567482;
+  background-color: #f3f6fa;
+  border-radius: 0.3rem;
+}
+.main-content pre {
+  padding: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font: 1rem Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  color: #567482;
+  word-wrap: normal;
+  background-color: #f3f6fa;
+  border: solid 1px #ffe2f4;
+  border-radius: 0.3rem;
+}
+.main-content pre > code {
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+  color: #567482;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+.main-content .highlight {
+  margin-bottom: 1rem;
+}
+.main-content .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+.main-content .highlight pre,
+.main-content pre {
+  padding: 0.8rem;
+  overflow: auto;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  border-radius: 0.3rem;
+  -webkit-overflow-scrolling: touch;
+}
+.main-content pre code,
+.main-content pre tt {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+.main-content pre code:before, .main-content pre code:after,
+.main-content pre tt:before,
+.main-content pre tt:after {
+  content: normal;
+}
+.main-content ul,
+.main-content ol {
+  margin-top: 0;
+}
+.main-content blockquote {
+  padding: 0 1rem;
+  margin-left: 0;
+  color: rgb(147.4050632911, 117.3417721519, 112.5949367089);
+  border-left: 0.3rem solid #ffe2f4;
+}
+.main-content blockquote > :first-child {
+  margin-top: 0;
+}
+.main-content blockquote > :last-child {
+  margin-bottom: 0;
+}
+.main-content table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+  -webkit-overflow-scrolling: touch;
+  border: none;
+}
+.main-content table th {
+  font-weight: bold;
+}
+.main-content table th,
+.main-content table td {
+  padding-left: 0rem;
+}
+.main-content dl {
+  padding: 0;
+}
+.main-content dl dt {
+  padding: 0;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.main-content dl dd {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+.main-content hr {
+  height: 2px;
+  padding: 0;
+  margin: 1rem 0;
+  background-color: rgb(83.6923076923, 44.3076923077, 59.0769230769);
+  border: 0;
+  filter: saturate(0.7);
+}
+ul.spaced-list#teaching hr {
+  height: 2px;
+  padding: 0;
+  margin: 1rem 0;
+  background-color: #5b4cbf;
+  border: 0;
+  filter: saturate(0.7);
+}
+
+.ma-tronche {
+  float: right;
+  padding-left: 1rem;
+  text-align: center;
+}
+@media screen and (min-width: 64em) {
+  .ma-tronche {
+    max-width: 25%;
+  }
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .ma-tronche {
+    min-width: 25%;
+    max-width: 200px;
+  }
+}
+@media screen and (max-width: 42em) {
+  .ma-tronche {
+    width: 50%;
+  }
+}
+
+.contenu-section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.site-footer {
+  padding-top: 2rem;
+  padding-right: 3rem;
+  margin-top: 2.2rem;
+  background-color: #11090c;
+  filter: saturate(1);
+}
+@media screen and (min-width: 64em) {
+  .site-footer {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .site-footer {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 42em) {
+  .site-footer {
+    font-size: 0.9rem;
+  }
+}
+
+.site-footer-owner {
+  display: block;
+  font-weight: bold;
+}
+
+.site-footer-credits {
+  color: rgb(147.4050632911, 117.3417721519, 112.5949367089);
+}
+.site-footer-credits a {
+  color: #e25964;
+}
+.site-footer-credits a:hover {
+  text-decoration: underline;
+}
+.site-footer-credits a:active {
+  color: rgb(233.5846153846, 132.4153846154, 140.5384615385);
+}
+
+.activity {
+  text-align: justify;
+  padding-right: 2rem;
+}
+.activity li::marker {
+  color: #f1a07b;
+}
+.activity li {
+  padding-bottom: 1rem;
+}
+.activity a {
+  color: #f1a07b;
+  text-decoration: none;
+}
+.activity a:hover {
+  text-decoration: underline;
+}
+.activity a:active {
+  color: rgb(248.3356164384, 209.7773972603, 192.1643835616);
+}
+
+.activity-name {
+  color: #f1a07b;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-decoration-thickness: 0.1rem;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+summary {
+  display: block;
+  padding-left: 1rem;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+summary:hover {
+  font-weight: bolder;
+  transition: font-weight 0.2s;
+}
+
+summary:before {
+  content: "";
+  border-width: 0.4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #f0efe9;
+  position: absolute;
+  top: 0.4rem;
+  left: 0rem;
+  transform: rotate(0);
+  transform-origin: 0.2rem 50%;
+  transition: 0.25s transform ease;
+}
+
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+ul.spaced-list {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+ul.spaced-list li {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+div.talk-title {
+  font-weight: bolder;
+  color: #ecb6c6;
+}
+
+div.publication-title {
+  font-weight: bolder;
+  color: #d8ddaa;
+}
+
+div.teaching-title {
+  font-weight: bolder;
+  color: #aaafdd;
+  .responsable-ue {
+    font-weight: lighter;
+    color: #bfbeb9;
+    font-style: italic;
+  }
+}
+
+#mail {
+  font-family: Courier;
+  font-weight: bold;
+  background-color: rgba(79,29,119,0.2);
+  color: #070607;
+  border: 2px solid #070607;
+  margin: 0 auto;
+  width: 29em;
+  max-width: 90%;
+  margin-top: 0.2rem;
+}
+
+ul#talks li::marker {
+  color: #ecb6c6;
+}
+ul#talks a {
+  color: #d86e97;
+  font-weight: bolder;
+}
+
+ul#publications li::marker {
+  color: #d8ddaa;
+}
+ul#publications a {
+  color: #d4da79;
+  font-weight: bolder;
+}
+
+ul#teaching li::marker {
+  color: #aaafdd;
+}
+ul#teaching a {
+  color: #797fda;
+  font-weight: bolder;
+}
+
+.journal-publication {
+  font-style: italic;
+  color: rgb(219.3243243243, 216.9459459459, 202.6756756757);
+  font-weight: lighter;
+}
+
+.talk-lieu {
+  font-style: italic;
+  color: rgb(219.3243243243, 216.9459459459, 202.6756756757);
+  font-weight: lighter;
+}
+
+a.ok {
+  color: #d4da79;
+  font-weight: bolder;
+}
+
+.abstract {
+  font-size: 80%;
+  text-align: justify;
+  color: rgb(235.8648648649, 234.5891891892, 226.9351351351);
+  filter: saturate(0.5);
+  font-weight: lighter;
+  padding-left: 1rem;
+}
+
+#to-top-btn-talks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f0efe9;
+  text-decoration: none;
+}
+#to-top-btn-talks:hover {
+  font-weight: bolder;
+  transition: font-weight 0.2s;
+}
+
+#to-top-btn-publications {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f0efe9;
+  text-decoration: none;
+}
+#to-top-btn-publications:hover {
+  font-weight: bolder;
+  transition: font-weight 0.2s;
+}
+
+#to-top-btn-teaching {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f0efe9;
+  text-decoration: none;
+}
+#to-top-btn-teaching:hover {
+  font-weight: bolder;
+  transition: font-weight 0.2s;
+}
+
+.top {
+  place-self: end;
+  position: sticky;
+  left: 77vw;
+  bottom: 20px;
+  margin-right: 20px;
+  --offset: 100px;
+  margin-top: calc(100vh + var(--offset));
+  white-space: nowrap;
+  font-size: larger;
+  font-weight: bolder;
+  padding: 0.6rem;
+  color: rgb(255, 135.5172413793, 106.5);
+  background: #640b1d;
+  border-radius: 100px;
+}
+
+.photo-credits {
+  font-size: smaller;
+  font-weight: lighter;
+  color: rgb(198.6486486486, 194.8918918919, 172.3513513514);
+  filter: saturate(0.5);
+  font-style: italic;
+}
+
+#main-menu {
+  display: block;
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+  z-index: 9;
+}
+
+#gallery-menu {
+  display: block;
+  width: 100%;
+  margin: 0px;
+  z-index: 9;
+}
+
+#gallery-desc {
+  margin-top: 2.5rem;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s, visibility 0.35s, height 0.35s;
+  overflow: hidden;
+  background: black;
+  z-index: -1;
+}
+
+#burger-input {
+  display: none;
+}
+
+#menu-burger {
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  background: #922a1a;
+  text-align: left;
+  transition: box-shadow 0.15s;
+  border: 1px solid #ffe2f4;
+  border-radius: 10px;
+  z-index: 99;
+}
+#menu-burger:hover {
+  box-shadow: 0 0 1rem #ffe2f4;
+}
+#menu-burger #barre-burger {
+  background: #11090c;
+  padding-left: 25px;
+}
+#menu-burger .barres-burger-au-pluriel {
+  padding: 8px;
+  line-height: 5px;
+}
+#menu-burger #sidebar-menu {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(17, 9, 12, 0.9333333333) 0%, rgba(17, 9, 12, 0.9333333333) 15rem, transparent 15rem, transparent 100%);
+  transition: 0.3s;
+  box-sizing: border-box;
+}
+#menu-burger #sidebar-menu .sidebar-sections {
+  width: 75%;
+}
+#menu-burger h3, #menu-burger ul {
+  box-shadow: none;
+}
+#menu-burger h3 {
+  color: #e6b26f;
+  font-size: 2.2rem;
+  padding: 0px 20px;
+  width: 75%;
+  word-break: break-word;
+}
+#menu-burger ul {
+  padding: 0px 30px;
+  width: 100%;
+  word-break: break-word;
+}
+#menu-burger li {
+  list-style-type: none;
+  line-height: 3rem;
+}
+#menu-burger a {
+  color: #ff7351;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+#menu-burger a:hover {
+  text-decoration: underline;
+}
+
+#burger-input:checked + #menu-burger #sidebar-menu {
+  visibility: visible;
+  left: 0;
+}
+
+#burger-input:checked ~ .overlay {
+  visibility: visible;
+  opacity: 0.4;
+}
+
+@media screen and (min-width: 64em) {
+  #menu-burger {
+    display: none;
+  }
+}
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  #menu-burger {
+    display: none;
+  }
+}
+@media screen and (max-width: 42em) {
+  #main-menu {
+    display: none;
+  }
+  #menu-burger {
+    display: inline;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
