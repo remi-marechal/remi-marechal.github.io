@@ -1125,6 +1125,21 @@ ul.spaced-list#teaching hr {
   filter: saturate(0.7);
 }
 
+ul.spaced-list#teaching .teaching-year h3 {
+  font-weight: bolder;
+  font-style: italic;
+  color: #aaafdd;
+  margin: 0;
+}
+
+ul.spaced-list#teaching .teaching-year hr {
+  margin: 0;
+}
+
+ul.spaced-list#teaching .teaching-year {
+  margin-top: 3rem;
+}
+
 .ma-tronche {
   float: right;
   padding-left: 1rem;
