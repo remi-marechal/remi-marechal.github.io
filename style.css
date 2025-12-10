@@ -1132,8 +1132,27 @@ ul.spaced-list#teaching .teaching-year h3 {
   margin: 0;
 }
 
+ul.spaced-list#teaching h4 {
+  font-weight: bolder;
+  font-style: italic;
+  color: #aaafdd;
+  margin: 0;
+  margin-top: 1rem;
+  filter: saturate(0.5);
+}
+
 ul.spaced-list#teaching .teaching-year hr {
   margin: 0;
+}
+
+hr.semester {
+  filter: saturate(0.3) !important;
+  max-width: 50%;
+  height: 2px;
+  padding: 0;
+  margin: 0 !important;
+  background-color: #5b4cbf;
+  border: 0;
 }
 
 ul.spaced-list#teaching .teaching-year {
