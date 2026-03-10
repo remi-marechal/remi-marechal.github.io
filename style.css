@@ -1553,6 +1553,20 @@ a.ok {
   opacity: 0.4;
 }
 
+#ai {
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 2rem;
+  font-weight: bold;
+
+  color: #e6b26f;
+
+  filter: saturate(0.7);
+}
+
 @media screen and (min-width: 64em) {
   #menu-burger {
     display: none;

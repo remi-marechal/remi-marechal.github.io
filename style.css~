@@ -1326,7 +1326,7 @@ div.teaching-title {
   color: #070607;
   border: 2px solid #070607;
   margin: 0 auto;
-  width: 12em;
+  width: 16em;
   max-width: 90%;
   margin-top: 0.2rem;
 }
@@ -1551,6 +1551,20 @@ a.ok {
 #burger-input:checked ~ .overlay {
   visibility: visible;
   opacity: 0.4;
+}
+
+#ai {
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 2rem;
+  font-weight: bold;
+
+  color: #e6b26f;
+
+  filter: saturate(0.5);
 }
 
 @media screen and (min-width: 64em) {

@@ -141,6 +141,21 @@ of such classes and constructing efficient algorithms (namely, Boltzmann sampler
   <ul class="spaced-list" id="talks">
   <li>
     <div class="talk-title">The "phoenix" and "fork anywhere" models of git graphs</div>
+    16th January 2026<br />
+    <div class="talk-lieu">At <a href="https://lipn.univ-paris13.fr/home/">Séminaire des non-permanent·es</a>, LIPN, Villetaneuse, France</div>
+    <a href="assets/pdf/semnonperm.pdf">Slides</a>
+    <details>
+      <summary>Abstract</summary>
+      <div class="abstract">
+        We want to define classes of DAGs suitable for the modelling of Version Control System repositories (such as git). In an effort to broaden the class of so-called "feature branch graphs" (introduced by Courtiel et al.), we define "phoenix graphs" and "fork anywhere graphs". We will explore counting, random generation, and bijective problems regarding these new classes.
+        <br /><br />
+        [Joint work with Julien Clément, Julien Courtiel, and Martin Pépin]
+      </div>
+    </details>
+  </li>
+
+  <li>
+    <div class="talk-title">The "phoenix" and "fork anywhere" models of git graphs</div>
     16th May 2025<br />
     <div class="talk-lieu">At <a href="https://pandag.proj.lip6.fr/workshop-2025/">PAnDAG Workshop</a>, LIP6, Paris, France</div>
     <a href="assets/pdf/workshopPAnDAG25.pdf">Slides</a>
@@ -358,7 +373,7 @@ objects</div>
 
   <li>
   <div class="teaching-title">Programmation fonctionnelle 1 <span class="responsable-ue">(Sergueï Lenglet, G1INPF1, 27h)</span></div>
-  Course in Caml, intended for first year students in computer science
+  Course in OCaml, intended for first year students in computer science
   </li>
 
   <li>
@@ -451,9 +466,10 @@ objects</div>
       <footer class="site-footer">
         
         <span class="site-footer-credits">
-          <b>Under perpetual construction (most recent update: November 2025)</b><br>
-          Built using <a href="https://pages.github.com">GitHub Pages</a>, with <a href="https://github.com/pages-themes/cayman">Cayman</a> theme
+          <b>Under perpetual construction (most recent update: March 2026)</b><br>
+          Based on GitHub Pages' <a href="https://github.com/pages-themes/cayman">Cayman</a> theme
         </span>
+        <div id="ai">aaaa</div>
       </footer>
     </main>
     <a href="#" class="top">Back to top</a>
